@@ -1,0 +1,322 @@
+/*media Query 집합*/ 
+
+@media  (max-width: 1400px) and (min-width: 1200px) {
+    #container > #contents > section.main_product_list, .ITEM_YOUTUBE_SECTION {
+		width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .Insta .Insta_Inner > a {width: 14% }
+}
+
+@media (max-width: 1200px) and (min-width: 900px) {
+
+    .NEW_5_SECTION .Prd9_Top {width: 33.3%  !important;}
+    
+    .NEW_5_SECTION .Prd9_Top .thumbnail > a > img {height: auto !important;}
+    .Insta .Insta_Inner > a {width: 23% }
+}
+
+
+@media (max-width: 1025px) and  (min-width: 575px) {
+    .ADD_IMAGE_SECTION .Prd18_Top {width: 50%  !important;}
+    #contents:has(#Subpage_ContentCtrl) {margin-top: 90px !important;}
+}
+@media (max-width: 1200px) and  (min-width: 770px) {
+
+}
+
+
+@media (max-width: 1025px) and  (min-width: 770px) {
+    .Youtube_Contents_Box .Youtube_Content {width: 46%;}
+    .Review_Section {width: 30%;}
+   	.ImgLine > a {width: 23%;}
+    .ImgLine {height: 100%;}
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+    .NEW_5_SECTION .Prd9_Top .thumbnail > a > img {height: auto !important;}
+    .Insta .Insta_Inner > a {width: 30% }
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+    #BannerPages_Content {height: 580px !important;}
+    .Youtube_Contents_Box .ec-base-product .prdList .thumbnail {height: 45% !important;}
+}
+
+@media (max-width: 991px)  and  (min-width: 770px){
+	#BannerPages_Content {height: 540px !important;}
+    #BannerPages_Content:nth-child(2) {padding-bottom: 0px !important; }
+    .Youtube_Contents_Box .ec-base-product .prdList .thumbnail {height: 55% !important; }
+    .TOPIC_EVENT .slick-slide {width: 40vw !important;}
+}
+
+@media (max-width: 770px) and (min-width: 575px) {
+
+    .NEW_5_SECTION .Prd9_Top .thumbnail > a > img {height: auto !important;}
+    .Review_Section {width: 50%;}
+    .Insta .Insta_Inner > a {width: 35% }
+    .top_nav_box { padding: 0px 10px !important;}
+    #BannerPages_Content {height: 550px !important;}
+    .Youtube_Contents_Box .ec-base-product .prdList .thumbnail {height: 70% !important;}
+    .TOPIC_EVENT .slick-slide {width: 80vw !important;}
+    .TOPIC_EVENT .slick-slide {margin: 0 10vw !important;}
+}
+
+
+@media (max-width: 900px) and (min-width: 575px) {
+
+    .section > div > div > ul.prdList > li a img {height: auto !important;}
+    .section > div > div > ul.prdList > li .spec {margin-bottom: 20px !important;}
+   
+}
+
+
+
+
+@media (max-width: 1420px) and (min-width: 1160px) {
+	/* .main_product_list {width: 90% !important;} */
+    
+    
+    
+
+    .BranInfo_Inner > #BranInfo_Inner_Box {width: 90%  !important;; left: 5%  !important;}
+}
+
+
+@media (max-width: 1720px) and (min-width: 1420px)  {
+    /*WEEKLY BEST IMG SIZE ----------- */
+    
+    /* ----------- WEEKLY BEST IMG SIZE*/
+    
+}
+
+@media (max-width: 900px) { 
+	.section > div > div > ul.prdList > li {/*width: 47.5%;*/ margin: 0px 0px 30px !important;}
+}
+
+@media (max-width: 1720px) {
+	.Prd11_Top .best-seller-bottom-banner > button:last-child {display: none;}
+    .Prd11_Top .best-seller-bottom-banner > * {width: 40px;}
+}
+
+@media (max-width: 1420px) {
+	.Prd11_1_Top .spec {visibility: hidden !important;}
+    
+}
+
+@media (max-width: 1200px) {
+	.top_category > ul > li {
+    	padding-left: 13px !important;
+        padding-right: 13px !important;
+    }
+    
+    .top_category > ul > li > a {
+    	font-size: 12px !important;
+    } 
+    
+    
+    
+    #TETRIST_BANNER_Section {margin: 0px 0px 120px !important; width:100% !important;}
+    #TETRIST {width:100% !important;}
+    
+    /* ----------- 햄버거 버튼 클릭 시 나오는 화면 조정 */
+    .Side_Left_Section > .Right_Section {display: none !important;}
+    .Side_Left_Section > .Left_Section {width: 100% !important;}
+    .Side_Left_Section {width: 50%;}
+    .Side_Right_Section {width: 49%;}
+    /* 햄버거 버튼 클릭 시 나오는 화면 조정 ----------- */
+    
+    #container > #contents > section.main_product_list, .ITEM_YOUTUBE_SECTION {
+		width:  96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .scrollBtn {display: none;}
+    #Review_Bar {width: 100% !important;}
+    
+    
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div > #Lower_BtnSection > #Lower_ChangeBtn { font-size: 25px; line-height: 25px; width: 25px;}
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div > #Lower_BtnSection > #Lower_ChangeBtn:first-child {left: 160px;}
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div > #Lower_BtnSection > #Lower_ChangeBtn:last-child {left: 200px;}
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div > #Lower_BtnSection > #Lower_ChangeBtn {top: -50px;}
+    
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div > #Changed_Text > #firstLine > h1 {font-size: 20px !important;}
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div > #Changed_Text > #secondLine >div > p {font-size: 11px !important; }
+    .TABS_Section > .ChangedPage > .TABS_Section_Left > div {padding: 0px 10px !important;}
+    #Changed_Picture {margin: 0px !important;}
+    .TABS_Section_Left {width: 100% !important;}
+    .TABS_Section_Right {width: 100% !important;}
+}
+
+@media (max-width: 1025px) {
+    /* ----------- 탑 헤더의 메뉴들 삭제 */
+	.top_nav_box > #Muti_Menu_Bar {display: none;}
+    /* 탑 헤더의 메뉴들 삭제 ----------- */
+    .top_sidebar {display: none !important;}
+    .top_nav_box {height: 50px !important;}
+    .top_mypage {height: 50px !important;}
+    #LogoBox {height: 50px !important; order: 3}
+    #LogoBox {width: 150px  !important;}
+    #Top_SmartBanner {margin: 0 0 120px !important; width: 100%;}
+    .top_mypage_Clone {display: flex !important;}
+    #Hamburger_Btn {display: none !important;}
+    #DeskTapBar {display: none;}
+    .Product_ScaleUp {width: 49% !important; max-width: 50%}
+    .xans-order-basketpackage { width: 90% !important; margin: 0 auto; }
+    .YOUTUBE_REALATIVE_SECTION > div {width: 96% !important;}
+    .YOUTUBE_REALATIVE_SECTION .YOUTUBE_REALIATION {width: 100% !important;}
+	#header .inner .top_nav_box > #LogoBox > img {display: none;}
+    #header .inner .top_nav_box > #LogoBox::after {
+        content: "대물낚시 300";
+        font-size: 23px;
+        height: 55px;
+        line-height:55px;
+		font-weight: 500;
+    }
+    .center:hover .slick-prev {left: 1px !important;}
+    .center:hover .slick-next {right: 1px !important;}
+    .THREE_OVERLAY_SECTION .THREE_OVERLAY_product_listmain .ec-base-product .prdList .Prd8_Top .prdList__item .description > div {padding: 0px !important;}
+}
+
+@media (max-width: 770px) {
+    #TETRIST {display: block}
+    .Youtube_Contents_Box .Youtube_Content {width: 95%;}
+    .BranInfo_Inner  #BranInfo_Inner_Box #Inner_Content .Inner_Content_Section1 {width:100% !important; height: auto; }
+     .BranInfo_Inner  #BranInfo_Inner_Box #Inner_Content .Inner_Content_Section1 h2 {font-size: 20px;}
+    .BranInfo_Inner  #BranInfo_Inner_Box #Inner_Content .Inner_Content_Section1 p {font-size: 12px; }
+    .BranInfo_Inner  #BranInfo_Inner_Box #Inner_Content .Inner_Content_Section2 {width:100% !important; height: auto; }
+    .BranInfo_Inner  #BranInfo_Inner_Box #Inner_Content .Inner_Content_Section2 img {max-height: 420px; min-height: 300px;}
+    .BranInfo_Inner {height: 620px;}
+    .BranInfo_Inner  #BranInfo_Inner_Box {height: 800px;}
+    .xans-product-listmain-7 > ul > li {width: 96% !important; margin: 0px auto 48px!important;}
+    
+    .THREE_OVERLAY_SECTION .ec-base-product ul.grid3 > li {width: 49%;}
+    
+    
+    .NEW_5_SECTION .Prd9_Top {width: 48%  !important;}
+    
+    .NEW_5_SECTION .Prd9_Top .thumbnail > a > img {height: 180px !important;}
+    .INFORMATION_SECTION {flex-direction: column !important; align-items: center !important; }
+    .Information > a {width: 100%; margin-bottom: 10px;}
+    #insta_ScrollToLeft {left: 5%  !important;  }
+	#insta_ScrollToRight {right: 5%  !important; }
+    .ImgLine_Section {height: 1000px;}
+    .ImgLine > a {width: 49%;}
+    .ImgLine {height: 100%;}
+    #product18_description > ul {padding: 0px 7px !important; margin-bottom: 115px !important; }
+    .Icon_Section > .Icon_Box > h4 {font-size:10px;}
+    .Left_Section > #Side_Event_Pannel {height: 150px;}
+    #project_ul > li {width: 49% !important;}
+    .ITEM_YOUTUBE_SECTION {max-width:100% !important; width: 100% !important;}
+    .Youtube_Contents_Box .slick-arrow, .TOPIC_EVENT .slick-arrow {visibility: visible !important; opacity: 1 !important;}
+    .Youtube_Contents_Box .slick-prev {left: 0px !important;}
+    .Youtube_Contents_Box .slick-next {right: 0px !important;}
+   
+}
+
+    
+@media (max-width: 575px) {
+	#BannerPages_Content {height: 400px !important;}
+    #BannerPages_Content .html5-video-player .video-stream {height: 280px !important;}
+    #header {width: 100%  !important;}
+    .top_nav_box {top: 0px !important; position: fixed !important; padding: 0px 10px !important;}
+    
+    .section > div > div > ul.prdList > li {width: 46.5%}
+    .section > div > div > ul.prdList > li a img {height: auto !important;}
+    .section > div > div > ul.prdList > li .spec {margin-bottom: 20px !important;}
+    
+    .Side_Left_Section {width: 350px}
+    .Side_Right_Section {width: calc(99% - 350px);}
+    #SideMenuBtn {width: 24% !important;}
+    .BEST_SELLER_SECTION .best-seller-bottom-banner {display: none !important;}
+    .BEST_SELLER_SECTION {margin: 0 8px 80px !important;}
+    .best-seller-bottom-banner {display: none !important;}
+
+    
+    .Review_Section {width: 70%;}
+    .Insta .Insta_Inner > a {width: 45% }
+    .ADD_IMAGE_SECTION .Prd18_Top {width: 100%  !important;}
+    .BannerPageMoveBtn {top: 53% !important; width: 30px !important; height: 30px !important;}
+    .BannerPageMoveBtn > h1 {line-height: 30px !important;}
+    .bx-controls-direction > a {margin-top: 5px !important;}
+    .smart-banner-bx-wrapper .bx-prev {left: 6px !important;}
+    .smart-banner-bx-wrapper .bx-next {right: 6px !important;}
+    .smart-banner-bx-wrapper .bx-controls-direction a {top: 51% !important;}
+    .Icon_Section > .Icon_Box {height: 58px !important; padding-top: 10px !important; }
+    #header .inner .top_nav_box .top_mypage a {margin-left: 20px !important;}
+    #header .inner .top_nav_box .top_mypage_Clone a {margin-right: 14px !important;}
+    .Mobile_Top_Search #search_box #Search_Select_Option > * {font-size: 9px;}
+    .Mobile_Top_Search {position: fixed !important; top: 50px !important;}
+    #contents:has(#Subpage_ContentCtrl) {margin-top: 50px !important;}
+    #contents:has(.List_Title) {margin-top: 40px  !important;}
+    .Youtube_Contents_Box .ec-base-product .prdList .thumbnail {height: 50% !important;}
+    .TOPIC_EVENT .slick-slide {width: 90vw !important;}
+     .TOPIC_EVENT .slick-slide {margin: 0 5vw !important;}
+    
+}
+
+@media (max-width: 1160px) {
+    /* ----------- 위클리 베스트 관련 항목들 */
+	.BannerHover {width: 20%;}
+    .Prd11_Top .best-seller-bottom-banner {display: none;}
+    
+    
+    
+    /* 위클리 베스트 관련 항목들----------- */
+    
+    #SHOP > #SHOP_Contents> #SHOP_Text > span {width: 21%}
+    .BranInfo_Inner > #BranInfo_Inner_Box {width: 100%  !important; left: 0%  !important;}
+     .BranInfo_Inner  #BranInfo_Inner_Box #Inner_Content .Inner_Content_Section2 img {height: 80%;}
+    
+    
+}
+@media (min-width: 770px) {
+	.COLLECTION_BANNER_SECTION > div > div > ul > li {width:32% !important;}
+    #First_Tetrist_Box {padding-bottom:0px !important;}
+    .ITEM_YOUTUBE_SECTION {max-width:85% !important; width: 100% !important;}
+}
+@media (min-width: 1025px) {
+	.top_mypage_Clone {display: none;}
+    
+    .Mobile_Top_Search {display: none !important;}
+    .Mobile_Top_Search #search_box {display: none !important;}
+    #contents:has(#Subpage_ContentCtrl) {margin-top: 120px !important;}
+    
+}
+@media (min-width: 575px) {
+	.smart-banner-bx-wrapper .bx-controls-direction a {width: 50px !important; height: 50px !important; margin-top: -18px !important;}
+}
+
+
+@media (min-width: 1200px) {
+	.ADD_IMAGE_SECTION .Prd18_Top {width: 33.3%  !important;}
+    #BannerPages_Content {height: 920px !important;}
+}
+
+
+
+@media (min-width: 2100px) {
+    /*WEEKLY BEST IMG SIZE ----------- */
+	.Prd11_1_Top {
+    	width: 310px !important;
+        height: 310px !important;
+    }
+    .Prd11_1_Top > div > .thumbnail > a > img {
+    	width: 310px !important;
+        height: 310px !important;
+    }
+    /* ----------- WEEKLY BEST IMG SIZE*/
+}
+
+@media (min-width: 1400px) {
+    .BEST_SELLER_SECTION , .ITEM_YOUTUBE_SECTION {
+		width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

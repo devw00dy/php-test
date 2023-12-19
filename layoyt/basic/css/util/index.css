@@ -1,0 +1,122 @@
+/* icon */
+#pagenation {
+  justify-content: center;
+  margin: 4rem 0 0;
+  display: flex;
+}
+
+.icon {
+  padding: 0.75rem;
+}
+
+.page {
+  display: inline-block;
+  padding: 0.65rem 1rem 0.25rem;
+  border: 1px solid #333;
+}
+
+/* table */
+
+table {
+  border-spacing: 0px;
+  border-style: none;
+  padding: 0px;
+}
+
+td {
+  border-spacing: 0px;
+  border-style: none;
+  padding: 0px;
+}
+
+/* btn */
+#btn {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #dedede;
+}
+
+button {
+  background-color: #fff;
+}
+
+/* search */
+#boaedSearch {
+  margin: 1.5rem 0 0;
+}
+
+select {
+  padding: 0.75rem 1.25rem;
+  padding-right: 2rem;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.selectWrap {
+  border: 1px solid #dedede;
+  background: url('../../../../asset/down-arrow.svg') no-repeat 80% 50%/15px auto;
+}
+
+select option[value=""][disabled] {
+  display: none;
+}
+
+.searchInput {
+  width: 12rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #dedede;
+  border-radius: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+}
+
+.searchForm * {
+  display: inline-block;
+}
+
+.form {
+  margin: 0;
+}
+
+@media (min-width: 1081px) {
+
+  /* table */
+  #table {
+    border-bottom: 1px solid #dedede;
+    min-height: 50vh;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  thead {
+    background-color: #f6f6f6;
+  }
+
+  th:nth-child(2) {
+    width: 50% !important;
+  }
+
+  th {
+    padding: 1rem 0.625rem;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1080px) and (min-width: 721px) {}
+
+@media (max-width: 720px) {}

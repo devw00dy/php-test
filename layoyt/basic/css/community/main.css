@@ -1,0 +1,62 @@
+.head {
+  padding: 2rem 0;
+  border-top: 2px solid #333;
+}
+
+.description {
+  margin: 1rem 0 0;
+}
+
+.description ul {
+  display: flex;
+}
+
+.description ul li {
+  margin: 0;
+}
+
+.description span {
+  display: inline-block;
+}
+
+@media (min-width: 1081px) {
+  #contents {
+    margin: 0 8rem;
+  }
+
+  .breadcrumb {
+    color: #333;
+    font-size: 0.75rem;
+  }
+
+  .breadcrumb ol {
+    padding: 0;
+  }
+
+  .breadcrumb ol,
+  .breadcrumb ol li {
+    display: inline-block;
+  }
+
+  .title {
+    text-align: center;
+    margin: 3.5rem 0;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+    color: #555;
+  }
+
+  .title p {
+    color: #6d6d6d;
+    font-weight: 0.85rem;
+    margin: 1.5rem 0;
+  }
+
+
+}
+
+@media (max-width: 1080px) and (min-width: 721px) {}
+
+@media (max-width: 720px) {}
